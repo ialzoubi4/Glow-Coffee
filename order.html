@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Glow Coffee - Order</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 id="head">Glow Coffee Order</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <span>|</span>
+
+        <a href="product.html">Products</a>
+        <span>|</span>
+
+        <a href="order.html">Order</a>
+        <span>|</span>
+
+        <a href="media.html">Media</a>
+    </nav>
+
+
+    <h2>Place Your Order</h2>
+
+
+    <form>
+
+        <label for="name">Name:</label>
+        <br>
+
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your name"
+               required>
+
+        <br>
+
+
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+
+        <br>
+
+
+        <label for="phone">Phone:</label>
+        <br>
+
+        <input type="tel"
+               id="phone"
+               name="phone"
+               placeholder="Enter your phone number">
+
+        <br>
+
+
+        <label for="date">Order Date:</label>
+        <br>
+
+        <input type="date"
+               id="date"
+               name="date">
+
+        <br>
+
+
+        <label>Choose Size:</label>
+        <br>
+
+        <input type="radio"
+               id="small"
+               name="size"
+               value="small">
+
+        <label for="small">Small</label>
+
+        <input type="radio"
+               id="medium"
+               name="size"
+               value="medium">
+
+        <label for="medium">Medium</label>
+
+        <input type="radio"
+               id="large"
+               name="size"
+               value="large">
+
+        <label for="large">Large</label>
+
+        <br>
+
+
+        <label>Extra Options:</label>
+        <br>
+
+        <input type="checkbox"
+               id="extra-shot"
+               name="extra-shot">
+
+        <label for="extra-shot">Extra Shot</label>
+
+        <br>
+
+        <input type="checkbox"
+               id="caramel"
+               name="caramel">
+
+        <label for="caramel">Caramel</label>
+
+        <br>
+
+        <input type="checkbox"
+               id="vanilla"
+               name="vanilla">
+
+        <label for="vanilla">Vanilla</label>
+
+        <br>
+
+
+        <label for="product">Choose Product:</label>
+        <br>
+
+        <select id="product" name="product">
+
+            <option value="cappuccino">
+                Cappuccino
+            </option>
+
+            <option value="latte">
+                Latte
+            </option>
+
+            <option value="americano">
+                Americano
+            </option>
+
+        </select>
+
+        <br>
+
+
+        <label for="notes">Notes:</label>
+        <br>
+
+        <textarea id="notes"
+                  name="notes"
+                  rows="5"
+                  placeholder="Write your notes here"></textarea>
+
+        <br>
+
+
+        <label for="image">Upload Image:</label>
+        <br>
+
+        <input type="file"
+               id="image"
+               name="image"
+               accept=".jpg,.png">
+
+        <br>
+
+
+        <button type="submit">
+            Place Order
+        </button>
+
+        <button type="reset">
+            Clear Form
+        </button>
+
+    </form>
+
+</body>
+
+</html>
