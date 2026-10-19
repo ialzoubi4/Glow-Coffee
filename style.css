@@ -419,3 +419,67 @@ iframe {
     margin: 10px auto;
     border: 2px solid #6f4e37;
 }
+
+.products{
+display:flex;
+flex-wrap: wrap;
+text-align: center;
+}
+.products .product{
+width: 33.33%;
+background-color: #3e2723;
+}
+@media screen and (min-width:0) and (max-width:600px) {
+   .products .product{
+    width: 100%;
+   }
+}
+@media screen and (min-width:601px) and (max-width:910px) {
+   .products .product{
+    width: 50%;
+   }
+}
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav a {
+        padding: 9px 6px;
+        font-size: 13px;
+    }
+
+    .cimg {
+        width: 80%;
+    }
+
+    .intro {
+        padding: 12px;
+    }
+
+    #special-offer,
+    #features,
+    #steps,
+    #slogan {
+        padding: 12px;
+    }
+
+    form {
+        width: 94%;
+        padding: 12px;
+    }
+
+    button {
+        display: inline-block;
+        margin-top: 12px;
+    }
+
+    .media-box {
+        padding: 8px;
+    }
+}
